@@ -1,0 +1,35 @@
+:root{
+    --background-c:#111;
+  }
+  
+  body{
+    background-color:var(--background-c);
+    transition:all 1.2s ease-out 0.2s;
+  }
+  
+  .random{
+    background-color:purple;
+    min-width:79px;
+    max-width:700px;
+    align-content:space-between;
+    display:block;
+    text-align:justify;
+    border:1px solid red;
+    font-family:'Inconsolata';
+    color:blue;
+    transition:all 1.2s ease-out 0.2s;
+    padding:10px;
+  }
+  
+  @media only screen and(min-width:100px), (max-width:500px){
+    .random{
+      background-color:cyan;
+      color:black;
+      transition:all 1.2s ease-out 0.2s;
+    }
+    body{
+      background-color:purple;
+      transition:all 1.2s ease-in 0.2s;
+    }
+  }
+  
